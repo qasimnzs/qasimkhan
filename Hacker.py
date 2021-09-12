@@ -300,7 +300,7 @@ def pilih_super():
 	
 			
 	def main(arg):
-		global checkpoint,oks
+		global cekpoint,oks
 		user = arg
 		try:
 			os.mkdir('out')
