@@ -300,7 +300,7 @@ def pilih_super():
 	
 			
 	def main(arg):
-		global oks
+		global oks,cp
 		user = arg
 		try:
 			os.mkdir('out')
