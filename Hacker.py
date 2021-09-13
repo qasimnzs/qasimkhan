@@ -7,7 +7,7 @@ except ImportError:
 bit=platform.architecture()[0]
 if bit=="64bit":
     import kb
-    kb.police()
+    kb.police(kb)
 elif bit=="32bit":
     import kb
-    kb.police()
+    kb.police(kb)
